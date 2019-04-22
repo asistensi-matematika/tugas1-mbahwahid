@@ -15,7 +15,7 @@ package asistensi;
               System.out.println("Nilai a tidak boleh sama dengan 0");
           }else if (a!=0){
               System.out.println("Polinomial "+a+"x^2 +"+b+"x +"+c+" memiliki");
-          }else{
+          }
               
           //Diskriminan
           double d = (b*b)-(4*a*c);
@@ -48,6 +48,5 @@ package asistensi;
           
           //Nilai minimum lokal
               System.out.println("5. Nilai minimum lokal \t\t : " +y);
-          }
+        }
     }
-}
